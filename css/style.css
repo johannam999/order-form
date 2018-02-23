@@ -6,18 +6,15 @@ body{
   margin:0 auto;
 }
 header{
-
   font-size: 40px;
   font-weight:bold;
-  margin:10% 0 0 26%;
- 
-  }
+  margin:10% 0 0 20%;
+ }
 #products{
   font-size:15px;
   width:120px;
   height:30px;
   margin:50px;
-
 }
 
 input{
@@ -34,6 +31,14 @@ button{
 #text{
   margin-top:10%;
   margin-left:5%;
-
+}
+img{
+  margin:20px 0px 20px 30px;
+  width:100px;
+  height:100px;
+}
+#box{
+  width:960px;
+  margin-top:40px;
 }
 
