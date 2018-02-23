@@ -1,0 +1,39 @@
+body{
+  width:960px;
+  background:rgba(176, 176, 176, 0.351);
+  font-family:verdana;
+  line-height: 30px;
+  margin:0 auto;
+}
+header{
+
+  font-size: 40px;
+  font-weight:bold;
+  margin:10% 0 0 26%;
+ 
+  }
+#products{
+  font-size:15px;
+  width:120px;
+  height:30px;
+  margin:50px;
+
+}
+
+input{
+height:30px;
+}
+button{
+  width:120px;
+  height:35px;
+  border-radius:5px;
+  margin-left: 50px;
+  background:rgb(80, 78, 78);
+  color:white;
+}
+#text{
+  margin-top:10%;
+  margin-left:5%;
+
+}
+

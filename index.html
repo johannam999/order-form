@@ -7,9 +7,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css" type="text/css" media = "screen">
-  <script src="main.js"></script>
+  
 </head>
 <body>
+  <header>Welcome to the Bus Mall!</header>
+  <div >
+    <img id="showcase" src="" alt="">
+  </div>
+  <form id="storeData-form">
   
+  
+    <legend id="text">Please add the items to your shopping cart.</legend>
+    <select name="products" id="products">
+      
+    </select>
+    <label for="amount">Amount </label>
+    <input name="amount" type="number" min="0" size="10" />
+    <button id="" type="submit"> Add to cart</button><br>
+  </form>
+  <form id="client">
+    <legend>Address:</legend><br>
+    <label for="name">Client Name </label><br>
+    <input name="name" type="text" size="50" /><br>
+    
+    <label for="street">Street Name </label><br>
+    <input name="street" type="text" size="50" /><br>
+
+    <label for="city">City</label><br>
+    <input name="city" type="text" size="30" /><br>
+    
+    <label for="zipCode">Zip Code </label><br>
+    <input name="zipCode" type="text" size="30" /><br>
+
+    <label for="phoneNo"> Phone Number</label><br>
+    <input name="phoneNo" type="text" size="30" /><br><br>
+
+    <button type="submit"> Go to cart</button><br>
+  </form>
+  <script src="js/app.js"></script>
 </body>
 </html>
